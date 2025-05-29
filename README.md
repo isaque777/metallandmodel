@@ -69,6 +69,23 @@ Then publish:
 npm publish --access public
 ```
 
+### **5. Update Your Package**
+1. Bump the version in `package.json` (or use `npm version`):
+   ```bash
+   npm version patch  # Updates to v1.0.1 (or `minor`/`major`)
+   ```
+2. Republish:
+   ```bash
+   npm publish
+   ```
+
+---
+
+### **Key Notes**
+- **Unpublishing**: Avoid unpublishing (npm restricts this after 72 hours). Use `npm unpublish --force` only if critical.
+- **Private Packages**: Use `"private": true` in `package.json` or pay for private hosting.
+- **`.npmignore`**: Exclude files (like `node_modules/`, `test/`) by creating this file (works like `.gitignore`).
+
 ## 5. Using the Published Package
 
 Install in another Angular project:

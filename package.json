@@ -1,8 +1,12 @@
 {
   "name": "@isaque777/metallandmodel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A collection of Angular model classes",
-  "keywords": ["angular", "models", "typescript"],
+  "keywords": [
+    "angular",
+    "models",
+    "typescript"
+  ],
   "author": "Your Name",
   "license": "MIT",
   "repository": {

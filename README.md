@@ -55,7 +55,22 @@ Edit the generated `package.json` to include:
 }
 ```
 
-## 4. Publish to npm
+## 4. Test Locally
+### **2. Test Locally**
+#### **Link your package for local testing**
+```bash
+npm link          # Creates a global symlink to your package
+```
+- Test in another project:
+  ```bash
+  npm link my-package
+  ```
+  ```javascript
+  const myPackage = require('my-package');
+  myPackage.hello(); // Output: "Hello from my-package!"
+  ```
+
+## 5. Publish to npm
 
 First, log in to npm (if you haven't already):
 
@@ -69,7 +84,7 @@ Then publish:
 npm publish --access public
 ```
 
-### **5. Update Your Package**
+## **5. Update Your Package**
 1. Bump the version in `package.json` (or use `npm version`):
    ```bash
    npm version patch  # Updates to v1.0.1 (or `minor`/`major`)
@@ -86,7 +101,7 @@ npm publish --access public
 - **Private Packages**: Use `"private": true` in `package.json` or pay for private hosting.
 - **`.npmignore`**: Exclude files (like `node_modules/`, `test/`) by creating this file (works like `.gitignore`).
 
-## 5. Using the Published Package
+## 6. Using the Published Package
 
 Install in another Angular project:
 

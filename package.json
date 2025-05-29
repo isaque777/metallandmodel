@@ -1,0 +1,19 @@
+{
+  "name": "@isaque777/metallandmodel",
+  "version": "1.0.0",
+  "description": "A collection of Angular model classes",
+  "keywords": ["angular", "models", "typescript"],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isaque777/metallandmodel.git"
+  },
+  "peerDependencies": {
+    "@angular/common": "^16.0.0",
+    "@angular/core": "^16.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}

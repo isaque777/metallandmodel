@@ -1,0 +1,117 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/node_modules
+/bower_components
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+/node_modules
+.firebase
+
+#Log files
+full-log.txt
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.angular/cache
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+
+
+#JRebel
+**/rebel-remote.xml
+**/rebel.xml
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# node-waf configuration
+.lock-wscript
+
+# Dependency directories
+node
+node_modules
+bower_components
+jspm_packages
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# generated javascript
+src/main/webapp/app/**/*.js.map
+src/main/webapp/app/**/*.js
+
+# desjardins
+*.cache
+.settings/
+.classpath
+.project
+*.class
+*.jar
+*.log
+*.zip
+*.exec
+*.exe
+*.war
+*.ear
+*.cache
+
+target/
+build/
+release.properties
+pom.xml.releaseBackup
+*.orig
+
+.checkstyle
+.pmd
+.pmdruleset.xml
+.fbExcludeFilterFile
+skip.badpractices
+/*.bak
+/omaweb-theme.iml
+/src/main/resources/rebel-remote.xml
+/src/main/resources/rebel.xml
+content
+
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+/full-log.txt

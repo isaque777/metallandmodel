@@ -18,6 +18,6 @@ describe('User', () => {
     const user = new User();
     expect(user.rememberMe).toBe(false);
     expect(user.address).toBeInstanceOf(Address);
-    expect(user.userTypes).toBeUndefined();
+    expect(user.userzTypes).toBeUndefined();
   });
 });

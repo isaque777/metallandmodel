@@ -6,8 +6,8 @@ export class User {
   public socialToken!: string;
   public tenantObj!: Tenant;
   public phone!: string;
-  public userName!: string;
-  public userTypes!: any[];
+  public userzName!: string;
+  public userzTypes!: any[];
   public cpf!: string;
   public address: Address = new Address();
 

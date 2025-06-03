@@ -21,7 +21,7 @@ export class User {
     public social?: string,
     public randomAlphaNumeric?: string,
     public roles?: any[],
-    public userRole?: any[],
+    public userzRole?: any[],
     public id?: number,
   ) {}
 }

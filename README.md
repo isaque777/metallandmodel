@@ -1,3 +1,11 @@
+# @isaque777/metallandmodel
+
+A collection of reusable TypeScript model classes and interfaces for use in Angular and TypeScript projects.  
+This module provides strongly-typed representations for common entities such as users, addresses, albums, bands, real estate, and more.  
+It is designed to help you standardize and accelerate model development in your applications.
+
+---
+
 ### **1. Test Locally**
 #### **Link your package for local testing**
 ```bash

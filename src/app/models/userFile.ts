@@ -1,3 +1,3 @@
 export class UserFile {
-  file;
+  file!: File;
 }

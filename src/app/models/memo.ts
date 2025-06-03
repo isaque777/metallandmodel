@@ -1,12 +1,12 @@
 import { RelationFile } from './relationFile';
 
 export class Memo {
-  id;
-  title: string;
-  description: string;
-  subTitle: string;
+  id: number = 0;
+  title: string = '';
+  description: string = '';
+  subTitle: string = '';
   memoFiles: RelationFile[] = [];
-  highlight: boolean;
-  html: boolean;
-  description_html: string;
+  highlight: boolean = false;
+  html: boolean = false;
+  description_html: string = '';
 }

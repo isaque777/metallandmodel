@@ -3,12 +3,12 @@ import { Tenant } from './tenant';
 
 export class User {
   public rememberMe: boolean = false;
-  public socialToken: string;
-  public tenantObj: Tenant;
-  public phone: string;
-  public userName: string;
-  public userzTypes: any[];
-  public cpf: string;
+  public socialToken!: string;
+  public tenantObj!: Tenant;
+  public phone!: string;
+  public userName!: string;
+  public userTypes!: any[];
+  public cpf!: string;
   public address: Address = new Address();
 
   constructor(
@@ -21,7 +21,7 @@ export class User {
     public social?: string,
     public randomAlphaNumeric?: string,
     public roles?: any[],
-    public userzRole?: any[],
+    public userRole?: any[],
     public id?: number,
   ) {}
 }

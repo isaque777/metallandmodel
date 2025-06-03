@@ -1,0 +1,4 @@
+node_modules/
+dist/
+*.js
+src/app/models/__tests__/

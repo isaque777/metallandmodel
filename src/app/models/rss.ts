@@ -1,8 +1,8 @@
 export class Rss {
-  id;
-  title: string;
-  link: string;
-  status: string;
-  name: string;
-  site: string;
+  id!: number | string;
+  title!: string;
+  link!: string;
+  status!: string;
+  name!: string;
+  site!: string;
 }

@@ -1,3 +1,3 @@
 export class TickerFile {
-  file;
+  file: any;
 }

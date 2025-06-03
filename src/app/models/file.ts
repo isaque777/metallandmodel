@@ -1,8 +1,8 @@
 export class Filez {
-  id: number;
-  name: string;
-  contentType: string;
-  lastModified: Date;
-  size: string;
+  id: number = 0;
+  name: string = '';
+  contentType: string = '';
+  lastModified: Date = new Date();
+  size: string = '';
   memoFiles: any[] = [];
 }

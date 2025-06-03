@@ -1,3 +1,3 @@
 export class MemoFile {
-  file;
+  file: any;
 }

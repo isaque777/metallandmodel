@@ -1,3 +1,3 @@
 export class TypeFile {
-  file;
+  file: any;
 }

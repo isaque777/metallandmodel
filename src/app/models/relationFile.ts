@@ -1,3 +1,3 @@
 export class RelationFile {
-  file;
+  file: any;
 }

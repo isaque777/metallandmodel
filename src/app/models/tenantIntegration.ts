@@ -1,11 +1,11 @@
 export class TenantIntegration {
-  id;
-  zapEnabled = false;
-  zapId;
-  zapPassword;
-  zapAmmount;
-  vivaRealEnabled = false;
-  vivaRealId;
-  vivaRealPassword;
-  vivaRealAmmount;
+  id: number | string = '';
+  zapEnabled: boolean = false;
+  zapId: number | string = '';
+  zapPassword: string = '';
+  zapAmount: number = 0;
+  vivaRealEnabled: boolean = false;
+  vivaRealId: number | string = '';
+  vivaRealPassword: string = '';
+  vivaRealAmount: number = 0;
 }

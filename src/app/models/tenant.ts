@@ -1,3 +1,4 @@
+import { Address } from './address';
 import { Type } from './type';
 
 export class Tenant {
@@ -24,7 +25,7 @@ export class Tenant {
   linkedin: string = '';
   blogger: string = '';
   flickr: string = '';
-  address: string = '';
+  address: Address = new Address();
   tenantIntegration: any = null;
 
   tenantFile: any[] = [];

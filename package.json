@@ -1,6 +1,7 @@
 {
   "name": "@isaque777/metallandmodel",
   "version": "1.0.13",
+  "type": "module",
   "description": "A collection of model classes for TypeScript",
   "keywords": [
     "models",
@@ -9,6 +10,7 @@
     "utilities"
   ],
   "main": "dist/index.js",
+  "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Isaque Soares",
   "license": "MIT",
@@ -33,9 +35,6 @@
     "prepublishOnly": "npm test && npm run lint",
     "ci": "npm run lint && npm run test:coverage"
   },
-  "files": [
-    "dist/**/*"
-  ],
   "dependencies": {
     "tslib": "^2.4.1"
   },
@@ -50,8 +49,5 @@
     "prettier": "^3.2.5",
     "ts-jest": "^29.1.2",
     "typescript": "^5.8.3"
-  },
-  "engines": {
-    "node": ">=18.0.0"
   }
 }

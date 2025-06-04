@@ -117,4 +117,4 @@ content
 /full-log.txt
 
 # TypeScript build info
-.tsbuildinfo
+*.tsbuildinfo

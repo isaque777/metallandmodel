@@ -1,5 +1,5 @@
 /** @type {import('ts-jest').JestConfigWithTsJest} */
-module.exports = {
+export default {
   preset: 'ts-jest',
   testEnvironment: 'node',
   
@@ -44,5 +44,4 @@ module.exports = {
   
   // Clear mocks between tests
   clearMocks: true,
-  
 };

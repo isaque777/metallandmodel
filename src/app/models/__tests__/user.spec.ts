@@ -1,5 +1,5 @@
-import { User } from '../user';
-import { Address } from '../address';
+import { User } from '../user.js';
+import { Address } from '../address.js';
 
 describe('User', () => {
   it('should create an instance', () => {

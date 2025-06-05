@@ -1,5 +1,5 @@
-import { City } from './city';
-import { Address } from './address';
+import { City } from './city.js';
+import { Address } from './address.js';
 
 export class RealEstate {
   id: number = 0;

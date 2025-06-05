@@ -1,4 +1,4 @@
-import { TypeFile } from './typeFile';
+import { TypeFile } from './typeFile.js';
 
 export interface Type {
   // Required fields

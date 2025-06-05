@@ -1,5 +1,5 @@
-import { Address } from '../address';
-import { City } from '../city';
+import { Address } from '../address.js';
+import { City } from '../city.js';
 
 describe('Address', () => {
   it('should create an instance', () => {

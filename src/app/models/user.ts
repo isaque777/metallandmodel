@@ -1,5 +1,5 @@
-import { Address } from './address';
-import { Tenant } from './tenant';
+import { Address } from './address.js';
+import { Tenant } from './tenant.js';
 
 export class User {
   public rememberMe: boolean = false;

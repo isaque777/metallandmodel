@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     "target": "ES2020",
-    "module": "Node16",                   
-    "moduleResolution": "Node16",         // Must match "module"
+    "module": "ESNext",                   // Changed from "Node16" to "ESNext"
+    "moduleResolution": "Node",           // Changed from "Node16" to "Node"
     "outDir": "./dist",
     "rootDir": "./src",
     "esModuleInterop": true,

@@ -1,4 +1,4 @@
-import { ProviderFile } from './providerFile.js';
+import { ProviderFile } from './providerFile';
 
 export class Provider {
   id!: number;

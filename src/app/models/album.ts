@@ -1,4 +1,4 @@
-import { RelationFile } from './relationFile.js';
+import { RelationFile } from './relationFile';
 
 export interface Album {
   id?: number;

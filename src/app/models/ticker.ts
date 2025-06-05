@@ -1,4 +1,4 @@
-import { TickerFile } from './tickerFile.js';
+import { TickerFile } from './tickerFile';
 
 export class Ticker {
   id!: number;

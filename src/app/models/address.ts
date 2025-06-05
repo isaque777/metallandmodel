@@ -1,4 +1,4 @@
-import { City } from './city.js';
+import { City } from './city';
 
 export class Address {
   id: number | string = 0;

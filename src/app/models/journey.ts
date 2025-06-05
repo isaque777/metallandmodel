@@ -1,5 +1,5 @@
-import {City} from './city.js';
-import {Address} from './address.js';
+import {City} from './city';
+import {Address} from './address';
 
 export class Journey {
   id: any;

@@ -1,5 +1,5 @@
-import { Address } from './address.js';
-import { Type } from './type.js';
+import { Address } from './address';
+import { Type } from './type';
 
 export class Tenant {
   id: number | string = '';

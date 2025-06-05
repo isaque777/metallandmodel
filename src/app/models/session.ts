@@ -1,5 +1,5 @@
-import { Interceptor } from './interceptor.js';
-import { User } from './user.js';
+import { Interceptor } from './interceptor';
+import { User } from './user';
 
 export class Session {
   user!: User;

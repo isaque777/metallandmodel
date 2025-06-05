@@ -1,4 +1,4 @@
-import { RelationFile } from './relationFile.js';
+import { RelationFile } from './relationFile';
 
 export class Memo {
   id: number = 0;

@@ -1,4 +1,4 @@
-import { Status } from './status';
+import { Status } from "./enums";
 
 export interface Band {
   // Required fields (adjust according to your needs)

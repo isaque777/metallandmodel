@@ -71,3 +71,10 @@ export enum DisplayType {
   EDITOR_PICK_SMALL,
   MOST_POPULAR,
 }
+
+export enum TypeEnum {
+  MEMO = "Memo",      // Memo
+  BAND = "Banda",     // Banda
+  ALBUM = "Album",    // Album
+  USER = "Usuário",   // Usuário
+}

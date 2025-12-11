@@ -1,26 +1,27 @@
 import { RelationFile } from './relationFile';
 
 export interface Album {
-  id?: number;
-  description?: string;
-  label?: string;
-  subDescription?: string;
-  memo?: string;
   albumBands?: any[];
-  ano?: string;
   albumFiles?: RelationFile[];
+  albumLinks?: AlbumLink[];
   albumSongs?: any[];
+  albumStyles?: any[];
   albumTypes?: any[];
   albumUsers?: any[];
-  albumStyles?: any[];
-  albumLinks?: AlbumLink[];
+  ano?: string;
+  bandDto?: any;
+  catalogNumber?: number;
   date?: Date;
   dateUpdate?: Date;
-  viewsTodayDate?: Date;
-  views?: number;
-  catalogNumber?: number;
-  viewsToday?: number;
+  description?: string;
+  id?: number;
+  label?: string;
+  memo?: string;
   startDate?: Date;
+  subDescription?: string;
+  views?: number;
+  viewsToday?: number;
+  viewsTodayDate?: Date;
 }
 export interface AlbumLink {
   id: number; // Long in Java becomes number in TypeScript

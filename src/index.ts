@@ -20,6 +20,7 @@ export * from './app/models/provider';
 export * from './app/models/providerFile';
 export * from './app/models/realEstate';
 export * from './app/models/relationFile';
+export * from './app/models/roleType';
 export * from './app/models/rss';
 export * from './app/models/session';
 export * from './app/models/tenant';

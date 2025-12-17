@@ -1,4 +1,5 @@
 import { RelationFile } from './relationFile';
+import { Status } from './enums';
 
 export class Memo {
   date: Date = new Date();
@@ -18,7 +19,7 @@ export class Memo {
   image?: Uint8Array;
   memoFiles: RelationFile[] = [];
   memoUserSelected?: any; // Userz type, replace with actual type if available
-  status: string = 'ACTIVE'; // Status enum, use string or replace with enum if defined
+  status: string = Status.ACTIVE; // Status enum, use string or replace with enum if defined
   subTitle: string = '';
   title: string = '';
   titleEn?: string;

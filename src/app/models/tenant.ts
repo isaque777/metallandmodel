@@ -38,6 +38,8 @@ export class Tenant {
   primaryColor: string = '';
   secondaryColor: string = '';
   fontColor: string = '';
-  backgroundColor: string = '';
+  thirdColor: string = '';
+  primaryLightColor: string = '';
+  primaryLineColor: string = '';
   backgroundImage: string = '';
 }

@@ -18,6 +18,7 @@ export interface Band {
   bandLogo?: BandLogo[];
   bandFiles?: BandFile[];
   bandImage?: BandImage[];
+  bandTenant?: BandImage[];
   bandStyle?: BandStyle[];
   bandCountry?: BandCountry[];
   bandUser?: BandUser[];
@@ -50,6 +51,9 @@ export interface BandUser {
   [key: string]: any;
 }
 export interface BandLink {
+  [key: string]: any;
+}
+export interface BandTenant {
   [key: string]: any;
 }
 export interface BandMember {

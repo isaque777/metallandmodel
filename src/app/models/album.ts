@@ -1,4 +1,10 @@
 import { RelationFile } from './relationFile';
+import { Tenant } from './tenant';
+
+export interface AlbumTenant {
+  id?: number;
+  tenant?: number | Tenant;
+}
 
 export interface Album {
   albumBands?: any[];
@@ -6,6 +12,7 @@ export interface Album {
   albumLinks?: AlbumLink[];
   albumSongs?: any[];
   albumStyles?: any[];
+  albumTenant?: AlbumTenant[];
   albumTypes?: any[];
   albumUsers?: any[];
   ano?: string;

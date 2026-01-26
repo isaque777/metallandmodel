@@ -1,6 +1,6 @@
 {
   "name": "@isaque777/metallandmodel",
-  "version": "1.0.27",
+  "version": "1.0.28",
   "type": "module",
   "description": "A collection of model classes for TypeScript",
   "keywords": [

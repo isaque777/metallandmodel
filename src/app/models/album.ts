@@ -1,3 +1,4 @@
+import { Status } from './enums';
 import { RelationFile } from './relationFile';
 import { Tenant } from './tenant';
 
@@ -8,6 +9,7 @@ export interface AlbumTenant {
 
 export interface Album {
   albumBands?: any[];
+  albumFather?: Album;
   albumFiles?: RelationFile[];
   albumLinks?: AlbumLink[];
   albumSongs?: any[];
@@ -16,6 +18,7 @@ export interface Album {
   albumTypes?: any[];
   albumUsers?: any[];
   ano?: string;
+  approvalStatus?: Status;
   bandDto?: any;
   catalogNumber?: number;
   date?: Date;
@@ -24,7 +27,10 @@ export interface Album {
   id?: number;
   label?: string;
   memo?: string;
+  pendingApprovalCount?: number;
+  pendingApprovalId?: number;
   startDate?: Date;
+  status?: Status;
   subDescription?: string;
   views?: number;
   viewsToday?: number;

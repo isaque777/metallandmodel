@@ -3,6 +3,7 @@ export interface Country {
   title: string;
   code2Digits: string;
   code3Digits: string;
+  flagIcon?: string | null;
   capital: string;
   date: Date; // Initialized in the service/component
   dateUpdate?: Date | null; // Optional field

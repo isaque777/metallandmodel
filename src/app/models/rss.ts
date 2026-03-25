@@ -5,4 +5,5 @@ export class Rss {
   status!: string;
   name!: string;
   site!: string;
+  isEnglishSource = false;
 }

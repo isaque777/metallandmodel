@@ -2,6 +2,7 @@ import { RelationFile } from './relationFile';
 import { Status } from './enums';
 
 export class Memo {
+  approvalStatus?: Status;
   date: Date = new Date();
   description: string = '';
   descriptionEn?: string;
@@ -19,6 +20,8 @@ export class Memo {
   image?: Uint8Array;
   memoFiles: RelationFile[] = [];
   memoUserSelected?: any; // Userz type, replace with actual type if available
+  pendingApprovalCount?: number;
+  pendingApprovalId?: number;
   status: string = Status.ACTIVE; // Status enum, use string or replace with enum if defined
   subTitle: string = '';
   title: string = '';

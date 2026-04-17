@@ -1,4 +1,4 @@
-import { Interceptor } from './enums';
+import { Interceptor } from './Enums';
 import { User } from './user';
 
 export class Session {

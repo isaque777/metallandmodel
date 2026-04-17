@@ -1,4 +1,4 @@
-import { Status } from './enums';
+import { Status } from './Enums';
 import { RelationFile } from './relationFile';
 import { Tenant } from './tenant';
 

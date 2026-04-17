@@ -1,5 +1,5 @@
 import { RelationFile } from './relationFile';
-import { Status } from './enums';
+import { Status } from './Enums';
 
 export class Memo {
   approvalStatus?: Status;

@@ -16,6 +16,7 @@ export * from './app/models/message';
 export * from './app/models/metaTag';
 export * from './app/models/neighbourhood';
 export * from './app/models/objectFile';
+export * from './app/models/pendingApprovalField';
 export * from './app/models/provider';
 export * from './app/models/providerFile';
 export * from './app/models/realEstate';

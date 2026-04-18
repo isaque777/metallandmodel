@@ -1,4 +1,5 @@
 import { Status } from "./Enums";
+import { PendingApprovalField } from './pendingApprovalField';
 
 export interface Band {
   // Required fields (adjust according to your needs)
@@ -14,11 +15,16 @@ export interface Band {
   memoBandProcessed?: Date;
   memo?: string;
   cityState?: string;
+  claimedInBandloom?: boolean;
+  hasPendingApproval?: boolean;
+  hasOwnPendingApproval?: boolean;
+  pendingApprovalDate?: Date;
+  pendingFieldChanges?: PendingApprovalField[];
   bandStatus?: BandStatus[];
   bandLogo?: BandLogo[];
   bandFiles?: BandFile[];
   bandImage?: BandImage[];
-  bandTenant?: BandImage[];
+  bandTenant?: BandTenant[];
   bandStyle?: BandStyle[];
   bandCountry?: BandCountry[];
   bandUser?: BandUser[];

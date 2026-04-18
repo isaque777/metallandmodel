@@ -1,5 +1,6 @@
 import { Status } from './Enums';
 import { RelationFile } from './relationFile';
+import { PendingApprovalField } from './pendingApprovalField';
 import { Tenant } from './tenant';
 
 export interface AlbumTenant {
@@ -24,11 +25,15 @@ export interface Album {
   date?: Date;
   dateUpdate?: Date;
   description?: string;
+  hasOwnPendingApproval?: boolean;
+  hasPendingApproval?: boolean;
   id?: number;
   label?: string;
   memo?: string;
+  pendingApprovalDate?: Date;
   pendingApprovalCount?: number;
   pendingApprovalId?: number;
+  pendingFieldChanges?: PendingApprovalField[];
   startDate?: Date;
   status?: Status;
   subDescription?: string;

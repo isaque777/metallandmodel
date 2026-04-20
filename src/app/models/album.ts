@@ -1,4 +1,4 @@
-import { Status } from './Enums';
+import { Status } from './enums';
 import { RelationFile } from './relationFile';
 import { PendingApprovalField } from './pendingApprovalField';
 import { Tenant } from './tenant';

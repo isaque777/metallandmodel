@@ -22,7 +22,8 @@
     "url": "https://github.com/isaque777/metallandmodel/issues"
   },
   "scripts": {
-    "build": "tsc",
+    "clean": "node -e \"require('node:fs').rmSync('dist', { recursive: true, force: true })\"",
+    "build": "npm run clean && tsc",
     "watch": "tsc --watch",
     "test": "jest",
     "test:watch": "jest --watch",

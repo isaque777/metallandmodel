@@ -1,4 +1,4 @@
-import { Status } from "./Enums";
+import { Status } from "./enums";
 import { PendingApprovalField } from './pendingApprovalField';
 
 export interface Band {

@@ -6,7 +6,7 @@ export * from './app/models/city';
 export * from './app/models/country';
 export * from './app/models/elastic-models-search';
 export * from './app/models/elastic-models-suggest';
-export * from './app/models/Enums';
+export * from './app/models/enums';
 export * from './app/models/file';
 export * from './app/models/journey';
 export * from './app/models/link';

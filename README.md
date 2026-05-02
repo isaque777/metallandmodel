@@ -8,16 +8,41 @@ It is designed to help you standardize and accelerate model development in your 
 
 ### **1. Test Locally**
 
-#### **Link your package for local testing**
+#### **Prerequisites (recommended)**
+
+Before testing locally, make sure:
+
+- `package.json` is correct (`name`, `version`, `main` / `exports`, `types`)
+- You run your build step, for example:
+
+```bash
+npm run build
+npm test
+```
+
+- You do not rely on unpublished files. Use the `files` field in `package.json` or verify your `.npmignore`.
+
+#### **Use npm link (fastest for development)**
+
+Best for active development when you want fast feedback while testing changes in another app.
+
+In your component library:
 
 ```bash
 npm link          # Creates a global symlink to your package
 ```
 
-- Test in another AngularJS project:
-  ```bash
-  npm link @isaque777/metallandmodel
-  ```
+In your consuming app:
+
+```bash
+npm link @isaque777/metallandmodel
+```
+
+✅ Pros
+
+- Instant feedback while developing locally
+- No need to publish a new version for every change
+- Useful for validating integration in a real app before publishing
 
 > **Note:**  
 > If you make changes to your package and they don't appear in your consuming project, try the following steps:
@@ -81,12 +106,20 @@ npm publish      # Publishes to npm (publicly, if package is free)
 
 1. Bump the version in `package.json` (or use `npm version`):
    ```bash
-   npm version patch  # Updates to v1.0.1 (or `minor`/`major`)
+  npm version patch  # Bug fixes, backwards-compatible
+  npm version minor  # New features, backwards-compatible
+  npm version major  # Breaking changes
    ```
 2. Republish:
    ```bash
    npm publish
    ```
+
+Version update types:
+
+- `patch`: increments `1.0.0` to `1.0.1`
+- `minor`: increments `1.0.0` to `1.1.0`
+- `major`: increments `1.0.0` to `2.0.0`
 
 ---
 

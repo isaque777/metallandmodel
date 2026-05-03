@@ -24,6 +24,7 @@ export class Memo {
   pendingApprovalId?: number;
   status: string = Status.ACTIVE; // Status enum, use string or replace with enum if defined
   subTitle: string = '';
+  subTitleProcessed?: Date;
   title: string = '';
   titleEn?: string;
   translationProcessed?: Date;

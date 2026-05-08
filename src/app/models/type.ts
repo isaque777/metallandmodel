@@ -9,6 +9,7 @@ export interface Type {
 
   // Optional fields with more specific types
   descriptionEn?: string | null;
+  icon?: string | null;
   value?: string | null;
   xPath?: string | null;
   error?: string | null;

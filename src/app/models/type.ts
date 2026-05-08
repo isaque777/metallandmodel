@@ -5,8 +5,10 @@ export interface Type {
   id: number;
   code: string;
   title: string;
+  titleEn?: string | null;
 
   // Optional fields with more specific types
+  descriptionEn?: string | null;
   value?: string | null;
   xPath?: string | null;
   error?: string | null;

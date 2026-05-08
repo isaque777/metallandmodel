@@ -4,6 +4,7 @@ import { Status } from './enums';
 export class Memo {
   approvalStatus?: Status;
   date: Date = new Date();
+  dateUpdate?: Date;
   description: string = '';
   descriptionEn?: string;
   descriptionNonHtml?: string;
@@ -18,6 +19,8 @@ export class Memo {
   html: boolean = false;
   id: number = 0;
   image?: Uint8Array;
+  imageId?: number;
+  imageUrl?: string;
   memoFiles: RelationFile[] = [];
   memoUserSelected?: any; // Userz type, replace with actual type if available
   pendingApprovalCount?: number;

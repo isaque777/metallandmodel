@@ -30,6 +30,7 @@ export class Memo {
   subTitleProcessed?: Date;
   title: string = '';
   titleEn?: string;
+  translationEnProcessed?: Date;
   translationProcessed?: Date;
   views: number = 0;
   viewsToday: number = 0;

@@ -10,6 +10,7 @@ export interface AlbumTenant {
 
 export interface Album {
   albumBands?: any[];
+  albumMembers?: any[];
   albumFather?: Album;
   albumFiles?: RelationFile[];
   albumLinks?: AlbumLink[];

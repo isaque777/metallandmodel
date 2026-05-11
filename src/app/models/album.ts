@@ -22,6 +22,7 @@ export interface Album {
   approvalStatus?: Status;
   bandDto?: any;
   catalogNumber?: number;
+  format?: string;
   date?: Date;
   dateUpdate?: Date;
   description?: string;
@@ -30,6 +31,7 @@ export interface Album {
   id?: number;
   label?: string;
   memo?: string;
+  memoEn?: string;
   pendingApprovalDate?: Date;
   pendingApprovalCount?: number;
   pendingApprovalId?: number;

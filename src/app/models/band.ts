@@ -14,6 +14,7 @@ export interface Band {
   currentLabel?: string;
   memoBandProcessed?: Date;
   memo?: string;
+  memoEn?: string;
   cityState?: string;
   claimedInBandloom?: boolean;
   hasPendingApproval?: boolean;

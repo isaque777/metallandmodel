@@ -1,4 +1,5 @@
 import { Status } from "./enums";
+import { Type } from './type';
 import { PendingApprovalField } from './pendingApprovalField';
 
 export interface Band {
@@ -15,13 +16,14 @@ export interface Band {
   memoBandProcessed?: Date;
   memo?: string;
   memoEn?: string;
+  lyricalThemes?: string;
   cityState?: string;
   claimedInBandloom?: boolean;
   hasPendingApproval?: boolean;
   hasOwnPendingApproval?: boolean;
   pendingApprovalDate?: Date;
   pendingFieldChanges?: PendingApprovalField[];
-  bandStatus?: BandStatus[];
+  bandStatus?: Type;
   bandLogo?: BandLogo[];
   bandFiles?: BandFile[];
   bandImage?: BandImage[];
@@ -36,9 +38,6 @@ export interface Band {
 }
 
 // Minimal supporting interfaces (define these as needed)
-export interface BandStatus {
-  [key: string]: any;
-}
 export interface BandLogo {
   [key: string]: any;
 }

@@ -25,6 +25,8 @@ export * from './app/models/robot';
 export * from './app/models/roleType';
 export * from './app/models/rss';
 export * from './app/models/session';
+export * from './app/models/sidebarAd';
+export * from './app/models/sidebarAdFile';
 export * from './app/models/tenant';
 export * from './app/models/tenantIntegration';
 export * from './app/models/ticker';

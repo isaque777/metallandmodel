@@ -12,6 +12,7 @@ export class Memo {
   description_html: string = '';
   elasticSearchProcessed?: Date;
   englishText: boolean = false;
+  extractedFromYoutube: boolean = false;
   externalUserEmail?: string;
   externalUserName?: string;
   forApproval: boolean = false;

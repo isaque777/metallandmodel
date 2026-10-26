@@ -11,6 +11,8 @@ export class Tenant {
   email!: string;
   code3Digits!: string;
   date!: Date;
+  memo?: string;
+  memoEn?: string;
   phoneNumber: string = '';
   phoneOperator: string = '';
   phoneWhatsapp: boolean = false;

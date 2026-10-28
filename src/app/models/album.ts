@@ -27,12 +27,15 @@ export interface Album {
   date?: Date;
   dateUpdate?: Date;
   description?: string;
+  titleFr?: string;
+  descriptionFr?: string;
   hasOwnPendingApproval?: boolean;
   hasPendingApproval?: boolean;
   id?: number;
   label?: string;
   memo?: string;
   memoEn?: string;
+  memoFr?: string;
   pendingApprovalDate?: Date;
   pendingApprovalCount?: number;
   pendingApprovalId?: number;

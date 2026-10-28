@@ -7,11 +7,14 @@ export class Memo {
   dateUpdate?: Date;
   description: string = '';
   descriptionEn?: string;
+  descriptionFr?: string;
+  descriptionOriginal?: string;
   descriptionNonHtml?: string;
   descriptionNonHtmlProcessed?: Date;
   description_html: string = '';
   elasticSearchProcessed?: Date;
   englishText: boolean = false;
+  sourceLanguage?: 'en' | 'pt' | 'fr';
   extractedFromYoutube: boolean = false;
   externalUserEmail?: string;
   externalUserName?: string;
@@ -32,7 +35,10 @@ export class Memo {
   subTitleProcessed?: Date;
   title: string = '';
   titleEn?: string;
+  titleFr?: string;
+  titleOriginal?: string;
   translationEnProcessed?: Date;
+  translationFrProcessed?: Date;
   translationProcessed?: Date;
   views: number = 0;
   viewsToday: number = 0;

@@ -6,6 +6,8 @@ export interface Band {
   // Required fields (adjust according to your needs)
   id: number; // Long in Java becomes number in TypeScript
   description: string;
+  titleFr?: string;
+  descriptionFr?: string;
 
   // Optional fields (all others from the Java class)
   bandFather?: Band;
@@ -16,6 +18,7 @@ export interface Band {
   memoBandProcessed?: Date;
   memo?: string;
   memoEn?: string;
+  memoFr?: string;
   lyricalThemes?: string;
   cityState?: string;
   claimedInBandloom?: boolean;

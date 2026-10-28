@@ -6,4 +6,5 @@ export class Rss {
   name!: string;
   site!: string;
   isEnglishSource = false;
+  sourceLanguage?: 'en' | 'pt' | 'fr';
 }

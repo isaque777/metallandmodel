@@ -4,6 +4,8 @@ import { Type } from './type';
 export class Tenant {
   id: number | string = '';
   title!: string;
+  titleFr?: string;
+  descriptionFr?: string;
   code!: string;
   path!: string;
   url!: string;
@@ -13,6 +15,7 @@ export class Tenant {
   date!: Date;
   memo?: string;
   memoEn?: string;
+  memoFr?: string;
   phoneNumber: string = '';
   phoneOperator: string = '';
   phoneWhatsapp: boolean = false;

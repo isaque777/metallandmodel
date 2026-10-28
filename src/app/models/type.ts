@@ -6,9 +6,11 @@ export interface Type {
   code: string;
   title: string;
   titleEn?: string | null;
+  titleFr?: string | null;
 
   // Optional fields with more specific types
   descriptionEn?: string | null;
+  descriptionFr?: string | null;
   icon?: string | null;
   value?: string | null;
   xPath?: string | null;

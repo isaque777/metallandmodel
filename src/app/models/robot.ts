@@ -12,6 +12,7 @@ export class Robot {
   dateSelector = '';
   status = 'active';
   isEnglishSource = false;
+  sourceLanguage?: 'en' | 'pt' | 'fr';
   reviewBeforePublish = true;
   notes = '';
 }

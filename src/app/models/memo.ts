@@ -20,6 +20,7 @@ export class Memo {
   externalUserName?: string;
   forApproval: boolean = false;
   highlight: boolean = false;
+  hideOnFeed: boolean = false;
   html: boolean = false;
   id: number = 0;
   image?: Uint8Array;

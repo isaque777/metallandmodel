@@ -33,6 +33,7 @@ export class Memo {
   status: string = Status.ACTIVE; // Status enum, use string or replace with enum if defined
   subTitle: string = '';
   subTitleEn?: string;
+  subTitleFr?: string;
   subTitleProcessed?: Date;
   title: string = '';
   titleEn?: string;

@@ -7,4 +7,5 @@ export class Rss {
   site!: string;
   isEnglishSource = false;
   sourceLanguage?: 'en' | 'pt' | 'fr';
+  hideOnFeed = false;
 }

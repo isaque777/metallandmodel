@@ -8,6 +8,12 @@ export enum Status {
   ACTIVE = "active",
 }
 
+export enum SourceLanguage {
+  PORTUGUESE = "pt",
+  ENGLISH = "en",
+  FRENCH = "fr",
+}
+
 export enum FileType {
   LOGO = "LOGO",
   IMAGE = "IMAGE",

@@ -1,5 +1,5 @@
 import { RelationFile } from './relationFile';
-import { Status } from './enums';
+import { SourceLanguage, Status } from './enums';
 
 export class Memo {
   approvalStatus?: Status;
@@ -13,8 +13,7 @@ export class Memo {
   descriptionNonHtmlProcessed?: Date;
   description_html: string = '';
   elasticSearchProcessed?: Date;
-  englishText: boolean = false;
-  sourceLanguage?: 'en' | 'pt' | 'fr';
+  sourceLanguage: `${SourceLanguage}` = SourceLanguage.PORTUGUESE;
   extractedFromYoutube: boolean = false;
   externalUserEmail?: string;
   externalUserName?: string;
